@@ -1,16 +1,61 @@
-# WIL1
-## :pushpin: MVC<hr/>
-* MVCëŠ” ...
-* ...
-* ...
-* ...
-<br/><br/>
+# __1. ÇÊ¼ö Á¤¸® ³»¿ë__
+##  __1.1. MVC(Model, View, Controller)ÆĞÅÏ__
+ÇÁ·ÎÁ§Æ® ±¸¼º ¿ä¼Ò¸¦ Model, View, Controoller·Î ºĞ¸®ÇÑ °ÍÀ¸·Î ºñÁî´Ï½º ·ÎÁ÷°ú È­¸é ÀÛ¾÷À» ºĞÇÒ Ã³¸®ÇÏ¿© È¿À²ÀûÀÌ´Ù. °ú°Å¿¡´Â View¿Í Controller°¡ ºĞ¸®µÇ¾î ÀÖÁö ¾ÊÀº Model1 ¹æ½ÄÀ» »ç¿ëÇß´Ù.
+* Model, Controller: ºñÁî´Ï½º ·ÎÁ÷ÀÌ³ª ³»ºÎ ÀÛ¾÷ Ã³¸®
+* View: È­¸é Ãâ·Â°ú °°Àº ÀÛ¾÷ Ã³¸®<br/><br/>
 
-## :pushpin: API<hr/>
-* APIëŠ” ...
-* ...
-* ...
-* ...
-<br/><br/>
+## __1.2. API(Application Programming Interface)¿Í ¼­¹ö__
+¾ÖÇÃ¸®ÄÉÀÌ¼Ç ¼ÒÇÁÆ®¿ş¾î¸¦ ºôµåÇÏ°í ÅëÇÕÇÏ±â À§ÇÑ ÀÎÅÍÆäÀÌ½ºÀÌ´Ù. ÇÁ·Î±×·¥µéÀÌ ¼­·Î »óÈ£ÀÛ¿ëÇÒ ¼ö ÀÖµµ·Ï µ½´Â ¿ªÇÒÀ» ÇÑ´Ù.
+* APIÀÇ ¿ªÇÒ
+  * ¼­¹ö¿Í µ¥ÀÌÅÍº£ÀÌ½ºÀÇ __ÃâÀÔ±¸__
+  * ¾ÖÇÃ¸®ÄÉÀÌ¼Ç°ú ±â±â »çÀÌÀÇ ¿øÈ°ÇÑ Åë½Å Áö¿ø
+  * ¸ğµç Á¢¼Ó __Ç¥ÁØÈ­__<br/><br/>
 
-## :pushpin: Restrful
+## __1.3. RESTful(Representational State Transfer-ful)__
+### __1.3.1. REST__
+ÀÚ¿øÀÇ Ç¥Çö¿¡ ÀÇÇÑ »óÅÂ Àü´ŞÀ» ¶æÇÑ´Ù. ¾ÆÅ°ÅØÃ³ ½ºÅ¸ÀÏ·Î¼­ API°¡ °®Ãç¾ß ÇÒ µğÀÚÀÎÀÌ¶ó°í »ı°¢ÇÏ¸é µÈ´Ù.
+* RESTÀÇ ±¸¼º ¿ä¼Ò
+  * ÀÚ¿ø(Resources): URL
+  * ¸Ş¼­µå(Method): HTTP ¸Ş¼­µå
+  * ¸Ş½ÃÁö(Message): HTTP header, body, status code, etc.<br/><br>
+
+### __1.3.2. RESTful API__
+REST ¼³°è ±ÔÄ¢À» Àß ÁöÄÑ ¼³°èµÈ API¸¦ ¸»ÇÑ´Ù. º»·¡ÀÇ ÀÇ¹Ì¿Í´Â ´Ù¸£°Ô ÀÏ¹İÀûÀ¸·Î REST ¾ÆÅ°ÅØÃ³¸¦ ±¸ÇöÇÏ´Â À¥¼­ºñ½º¸¦ Ç¥ÇöÇÏ´Â ¿ë¾î·Î ¾²ÀÎ´Ù. RESTfulÇÏ°Ô ¼³°èµÈ API´Â ¿äÃ»À» º¸³»´Â ÁÖ¼Ò¸¸ º¸°íµµ ¾î¶² ¿äÃ»À» ÇÏ´ÂÁö ¾Ë ¼ö ÀÖ´Ù°í ÇÑ´Ù.<br/><br/>
+
+# __2. WIL1__
+## __2.1. Java °³¹ß È¯°æ ±¸Ãà__
+* Java¼³Ä¡
+* intellij ¼³Ä¡<br/><br/>
+
+## __2.2. ½ºÇÁ¸µºÎÆ® ¼¼ÆÃ__
+* spring initializr Á¢¼Ó
+  * Project - Gradle ¼±ÅÃ
+  * Language - Java ¼±ÅÃ
+  * Spring Boot - Á¤½Ä ¹öÀü Áß °¡Àå ÃÖ½Å ¹öÀüÀ¸·Î ¼±ÅÃ
+  * Group - ÆĞÅ°Áö¸í ÀÔ·Â
+  * Artifact - ¾ÖÇÃ¸®ÄÉÀÌ¼Ç¸í ÀÔ·Â
+  * Name - Artifact¿Í µ¿ÀÏ
+  * Description - ¼³¸í ÀÔ·Â
+  * Package name - Gruop.Artifact
+  * Packaging - Jar ¼±ÅÃ
+  * Java - Java ¹öÀü ¼±ÅÃ
+  * Dependencies - spring web, thymeleaf ¼±ÅÃ
+  * generate ´­·¯ ¼³Ä¡ ÈÄ ¾ĞÃàÇ®±â<br/><br/>
+
+## __2.3. ÇÁ·ÎÁ§Æ® ¿­±â__
+1. intellij ½ÇÇà
+2. open ¼±ÅÃ
+3. ¾ĞÃàÀ» Ç¬ Æú´õ ³»ÀÇ build.gradleÆÄÀÏ ¼±ÅÃ
+4. open as project ¼±ÅÃ<br/><br/>
+
+## __2.4. À£ÄÄÆäÀÌÁö ¸¸µé±â__
+1. src\main\resources\staticÆú´õ¿¡ index.htmlÆÄÀÏ ÀÛ¼º
+2. main ½ÇÇà
+3. localhost:8080 Á¢¼ÓÇÏ¿© È®ÀÎ<br/><br/>
+
+## __2.5. ºôµå¿Í ½ÇÇà__
+1. ÅÍ¹Ì³Î ½ÇÇà
+2. ÇÁ·ÎÁ§Æ® Æú´õ ³»ÀÇ build\libsÆú´õ·Î ÀÌµ¿
+3. ./gradlew build ÀÔ·Â
+4. java -jar "Package name"-0.0.1-SNAPSHOT.jarÀÔ·Â
+5. localhost:8080 Á¢¼ÓÇÏ¿© È®ÀÎ
