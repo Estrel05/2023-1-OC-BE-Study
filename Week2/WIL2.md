@@ -46,8 +46,6 @@
 
 ### __1.5. 테스트__
 테스트 폴더에 테스트 케이스 파일을 작성하여 테스트를 진행한다. 테스트는 함수 단위로도 가능하고 클래스 단위로도 가능하다. 정상적인 상황뿐만 아니라 예외 상황에 대해서도 테스트를 진행한다.
-* 실제 테스트 화면
-![member_management_test](./Practice/Image/member_management_test.png)
 
 ## __2. 단축키__
 * Getter and Setter: alt + insert
