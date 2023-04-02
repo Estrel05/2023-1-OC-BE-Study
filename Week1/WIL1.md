@@ -1,4 +1,4 @@
-# __필수 정리 내용__
+# __:pushpin: 필수 정리 내용__
 ##  __1. MVC(Model, View, Controller)패턴__
 프로젝트 구성 요소를 Model, View, Controoller로 분리한 것으로 비즈니스 로직과 화면 작업을 분할 처리하여 효율적이다. 과거에는 View와 Controller가 분리되어 있지 않은 Model1 방식을 사용했다.
 * Model, Controller: 비즈니스 로직이나 내부 작업 처리
@@ -22,7 +22,7 @@
 ### __3.2. RESTful API__
 REST 설계 규칙을 잘 지켜 설계된 API를 말한다. 본래의 의미와는 다르게 일반적으로 REST 아키텍처를 구현하는 웹서비스를 표현하는 용어로 쓰인다. RESTful하게 설계된 API는 요청을 보내는 주소만 보고도 어떤 요청을 하는지 알 수 있다고 한다.<br/><br/>
 
-# __WIL1__
+# __:pushpin: WIL__
 ## __1. Java 개발 환경 구축__
 * Java설치
 * intellij 설치<br/><br/>
